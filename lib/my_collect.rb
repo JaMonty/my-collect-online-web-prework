@@ -1,9 +1,10 @@
 def my_collect(collection)
-collection = [] 
-while i < collection.length 
-new << yield(collection{c})
-i += 1 
+  i = 0 
+  collection = [] 
+  while i < collection.length 
+  new << yield(collection{c})
+  i += 1 
 end
-collection
+  collection
 end 
 
