@@ -1,6 +1,6 @@
 def my_collect(collection)
   i = 0 
-  collection = [] 
+  new = [] 
   while i < collection.length 
   new << yield(collection[c])
   i += 1 
